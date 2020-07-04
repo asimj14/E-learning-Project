@@ -1,0 +1,188 @@
+body {
+  background: url(../../docl.jpg);
+  font-family: 'Titillium Web', sans-serif;
+  background-size:cover;
+}
+
+table{
+
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+   
+    margin: 30px auto;
+    
+    text-align: left;
+    color: white;
+   
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th{
+    background-color: #1AB188;
+    color: white;
+    text-align: center;
+}
+
+  tr:hover {
+          background-color: black;
+        }
+th, td{
+    border: none; 
+    height: 30px;
+    padding: 2px;
+}
+
+form {
+
+
+    background-color: white;
+  
+
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;+
+
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+     
+    background: black; 
+  
+    text-align: center;
+
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 40px;
+
+}
+label .req {
+  margin: 2px;
+  color: red;
+}
+
+label.active {
+  transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: #000;
+  margin-top:-10px;
+}
+.form {
+  background-color: rgba(219,237,233,0.6);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  transition: .5s ease;
+}
+
+.form:hover {
+    box-shadow: 0px 0px 40px 16px rgba(18,18,18,1.00);
+    }
+
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+
+.a1:link {
+    color: white;
+}
+
+/* visited link */
+.a1:visited {
+    color: white;
+}
+
+/* mouse over link */
+.a1:hover {
+    color: black;
+}
+
+/* selected link */
+.a1:active {
+    color: black;
+}
+
+
+
+
+
+
