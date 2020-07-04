@@ -10,5 +10,5 @@ $db_nome="myelearn_dbelearning";
     die('Errore di connessione (' . $mysqli->connect_errno . ') '. $mysqli->connect_error);
 
     }
-
  ?>   
+ 
